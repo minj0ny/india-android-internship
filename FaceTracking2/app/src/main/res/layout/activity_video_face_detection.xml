@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:keepScreenOn="true">
+
+    <LinearLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:id="@+id/topLayout"
+
+        android:orientation="vertical"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+        <com.example.user.facetracking2.CameraSourcePreview
+
+            android:id="@+id/preview"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent">
+
+            <com.example.user.facetracking2.GraphicOverlay
+
+                android:id="@+id/faceOverlay"
+
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent" />
+
+        </com.example.user.facetracking2.CameraSourcePreview>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/flipButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-79dp"
+        android:layout_toStartOf="@+id/startButton"
+        android:src="@drawable/switch_cameras" />
+
+    <ImageButton
+        android:id="@+id/startButton"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="85dp"
+        android:src="@drawable/play" />
+
+    <ImageButton
+        android:id="@+id/finishButton"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="25dp"
+        android:src="@drawable/pause" />
+
+</RelativeLayout>

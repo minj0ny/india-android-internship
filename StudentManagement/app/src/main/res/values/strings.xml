@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">StudentManagement</string>
+    <string name="warning1">Enter name!</string>
+    <string name="warning2">We can\t find..Try again!</string>
+</resources>

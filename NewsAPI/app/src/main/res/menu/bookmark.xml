@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/check_all"
+        android:checkable="true"
+        android:icon="@drawable/baseline_check_box_outline_blank_white_24dp"
+        android:title="ALL"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/book_mark"
+        android:checkable="true"
+        android:icon="@drawable/baseline_bookmark_white_24dp"
+        android:title=""
+        app:showAsAction="never" />
+</menu>

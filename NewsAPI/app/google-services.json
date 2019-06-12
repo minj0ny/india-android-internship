@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "320338191898",
+    "firebase_url": "https://fcm-news-app.firebaseio.com",
+    "project_id": "fcm-news-app",
+    "storage_bucket": "fcm-news-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320338191898:android:56fbb920e23c0f5b",
+        "android_client_info": {
+          "package_name": "com.example.user.newsapi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320338191898-qe8rfmpgagenes8jshq71fi874oef45v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.newsapi",
+            "certificate_hash": "89d6a48ae965b49784dc6bca376795b1b44ed8e1"
+          }
+        },
+        {
+          "client_id": "320338191898-1j3qr7ohqpj12e8oqc6i00fc0h0ivpcm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCEocS5Qv-QF8rDKS_mJVMTlfP9mjEJII"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320338191898-1j3qr7ohqpj12e8oqc6i00fc0h0ivpcm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

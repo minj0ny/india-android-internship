@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="resId">
+        <item>@drawable/telegram</item>
+        <item>@drawable/whatsapp</item>
+        <item>@drawable/app</item>
+        <item>@drawable/facebook</item>
+        <item>@drawable/weather</item>
+        <item>@drawable/photos</item>
+    </integer-array>
+
+    <string-array name="name">
+        <item>Telegram</item>
+        <item>WhatsApp</item>
+        <item>App Store</item>
+        <item>Facebook</item>
+        <item>Weather</item>
+        <item>Photos</item>
+    </string-array>
+
+    <string-array name="pkg">
+        <item>org.telegram.messenger</item>
+        <item>com.whatsapp</item>
+        <item>com.android.vending</item>
+        <item>com.facebook.katana</item>
+        <item>com.android.weather</item>
+        <item>com.android.gallery</item>
+    </string-array>
+
+    <string-array name="size">
+        <item>25.2MB</item>
+        <item>64.52MB</item>
+        <item>57.3MB</item>
+        <item>49.71MB</item>
+        <item>27.8MB</item>
+        <item>50.45MB</item>
+    </string-array>
+
+    <string-array name="property">
+        <item>installed</item>
+        <item>installed</item>
+        <item>default</item>
+        <item>installed</item>
+        <item>default</item>
+        <item>default</item>
+    </string-array>
+</resources>

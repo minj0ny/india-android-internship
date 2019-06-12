@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+            android:layout_width="50dp"
+            android:layout_height="45dp" app:srcCompat="@drawable/button_item_border"
+            android:id="@+id/startBtn" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.974" app:layout_constraintVertical_bias="0.0"
+            android:layout_marginTop="8dp"/>
+    <TextView
+            android:layout_width="44dp"
+            android:layout_height="16dp" android:background="@drawable/button_item_green"
+            android:id="@+id/start_uderbar"
+            app:layout_constraintStart_toStartOf="@+id/startBtn"
+            app:layout_constraintEnd_toEndOf="@+id/startBtn"
+            app:layout_constraintBottom_toBottomOf="@+id/startBtn"
+            app:layout_constraintHorizontal_bias="0.0"
+            android:layout_margin="3dp" android:text="PLAY" android:textColor="@color/colorWhite"
+            android:gravity="center" android:textSize="12sp" android:textStyle="bold"/>
+    <ToggleButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/start_pausebutton"
+            android:textOff=""
+            android:textOn=""
+            android:checked="true"
+            android:id="@+id/playImage" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="0.707"
+            app:layout_constraintTop_toTopOf="parent" tools:ignore="VectorDrawableCompat"
+            android:layout_marginLeft="8dp" android:layout_marginTop="4dp" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/startBtn" app:layout_constraintVertical_bias="0.363"
+            app:layout_constraintStart_toEndOf="@+id/companyBtn"/>
+    <ImageView
+            android:layout_width="50dp"
+            android:layout_height="45dp" app:srcCompat="@drawable/button_item_border"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.837"
+            app:layout_constraintVertical_bias="0.0" android:id="@+id/hitsBtn"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="10dp" android:layout_marginTop="8dp"/>
+    <TextView
+            android:text="HITS"
+            android:layout_width="44dp"
+            android:layout_height="16dp"
+            android:id="@+id/hitsImage"
+            android:textColor="@color/colorWhite"
+            android:gravity="center"
+            android:background="@drawable/button_item_orange"
+            app:layout_constraintStart_toStartOf="@+id/hitsBtn"
+            app:layout_constraintEnd_toEndOf="@+id/hitsBtn"
+            app:layout_constraintBottom_toBottomOf="@+id/hitsBtn" app:layout_constraintTop_toTopOf="@+id/hitsBtn"
+            android:layout_margin="3dp" android:textSize="12sp" android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="1.0" app:layout_constraintVertical_bias="1.0"/>
+    <TextView
+            android:text="3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorOrange"
+            android:id="@+id/hits_count" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="@+id/hitsBtn" app:layout_constraintStart_toStartOf="@+id/hitsBtn"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/hitsImage" app:layout_constraintEnd_toEndOf="@+id/hitsBtn"
+            app:layout_constraintHorizontal_bias="0.507" android:textSize="24sp" android:textStyle="bold"/>
+    <ImageView
+            android:layout_width="70dp"
+            android:layout_height="45dp" app:srcCompat="@drawable/button_item_border"
+            android:id="@+id/companyBtn"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.85"
+            app:layout_constraintVertical_bias="0.0" app:layout_constraintEnd_toEndOf="@+id/hitsBtn"/>
+    <TextView
+            android:text="LOCKED"
+            android:layout_width="64dp"
+            android:layout_height="16dp"
+            android:background="@drawable/button_item_red"
+            android:textColor="@color/colorWhite"
+            android:gravity="center"
+            android:id="@+id/company_underbar" app:layout_constraintStart_toStartOf="@+id/companyBtn"
+            app:layout_constraintTop_toTopOf="@+id/companyBtn" app:layout_constraintEnd_toEndOf="@+id/companyBtn"
+            app:layout_constraintBottom_toBottomOf="@+id/companyBtn" app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintVertical_bias="1.0" android:layout_margin="3dp"
+            android:textSize="12sp" android:textStyle="bold"/>
+    <ImageView
+            android:layout_width="52dp"
+            android:layout_height="22dp" app:srcCompat="@drawable/doodleblue" android:id="@+id/companyImage"
+            app:layout_constraintStart_toStartOf="@+id/companyBtn"
+            app:layout_constraintEnd_toEndOf="@+id/companyBtn" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp" android:layout_marginTop="4dp"
+            app:layout_constraintTop_toTopOf="@+id/companyBtn" app:layout_constraintHorizontal_bias="0.75"/>
+</android.support.constraint.ConstraintLayout>
